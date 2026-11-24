@@ -1,0 +1,423 @@
+[
+  {
+    "version": "1.3.0",
+    "date": "2026-11-23",
+    "title": {
+      "es": "Actualizaciones desde GitHub, avisos y arreglos",
+      "en": "GitHub updates, notifications and fixes"
+    },
+    "items": {
+      "es": [
+        "Administración: el servidor puede buscar actualizaciones en GitHub (Releases), avisar en el panel y actualizarse con un botón: descarga el servidor y los clientes de Windows, Linux y Android, los comprueba y se reinicia solo. Si la versión nueva no arranca, vuelve sola a la anterior.",
+        "Perfiles y artistas: nueva campanita para elegir si quieres avisos de sus playlists o música nueva. Que alguien te siga y los mensajes avisan siempre.",
+        "Escuchar juntos: el botón de mezclar de la sala ahora es el mismo botón cíclico de encima de la barra de progreso.",
+        "Escuchar juntos: arreglado el chat de la sala, que dejaba de dejarte escribir al cambiar de canción.",
+        "Reproductor: los botones de control están centrados respecto al botón de play/pausa.",
+        "La sección Radios está oculta por defecto; el administrador la activa en Administración → Radios.",
+        "Los códigos para compartir personalizaciones ahora son cortos (una línea); los códigos antiguos siguen funcionando.",
+        "Importar playlists de YouTube: arreglado el «No he encontrado canciones» (ahora entiende el formato nuevo de YouTube y tiene un plan B).",
+        "Los CSV y listas de texto que importas se quedan guardados: «Sincronizar ahora» (o cada escaneo) añade al final de la playlist las canciones que vayan llegando al servidor, sin importar el orden.",
+        "Playlists: arrastra las canciones para cambiar su orden.",
+        "App Android 1.3.0: modo sin conexión con descargas de álbumes y playlists, y reproducción desde la lista local.",
+        "App Android: Home sincronizada con playlists escuchadas, recomendaciones, mixes, amigos escuchando, descubrimiento y novedades; sin anuncios.",
+        "App Android: banners de perfil con la foto superpuesta, y listas navegables de seguidores y seguidos respetando la privacidad de cada perfil.",
+        "App Android: campanitas para avisos de perfiles y artistas, e importación de playlists desde CSV.",
+        "App Android: las letras siguen automáticamente el verso actual con transiciones animadas; carga de portadas optimizada y acceso directo al panel de administración.",
+        "Cliente de escritorio 1.3.0."
+      ],
+      "en": [
+        "Administration: the server can look for updates on GitHub (Releases), notify you in the panel and update with one button: it downloads the server and the Windows, Linux and Android clients, verifies them and restarts by itself. If the new version does not start, it goes back to the previous one on its own.",
+        "Profiles and artists: new bell to choose whether you want alerts for their new playlists or music. New followers and messages always notify.",
+        "Listen together: the room shuffle is now the same cycle button above the progress bar.",
+        "Listen together: fixed the room chat, which stopped letting you type when the song changed.",
+        "Player: the control buttons are now centered on the play/pause button.",
+        "The Radios section is hidden by default; the administrator enables it in Administration → Radios.",
+        "Customization share codes are now short (one line); old codes still work.",
+        "Importing YouTube playlists: fixed “I couldn't find any songs” (it now understands YouTube's new format and has a plan B).",
+        "CSV files and text lists you import are kept: “Sync now” (or every scan) adds songs that reach the server to the end of the playlist, in any order.",
+        "Playlists: drag songs to change their order.",
+        "Android app 1.3.0: offline mode with album and playlist downloads, playable from the local downloads list.",
+        "Android app: Home synced with played playlists, recommendations, mixes, friends listening, discovery and new releases; no ads.",
+        "Android app: profile banners with the avatar overlapping the banner, plus navigable follower and following lists that respect each profile's privacy settings.",
+        "Android app: notification bells for followed profiles and artists, and playlist import from CSV.",
+        "Android app: lyrics automatically follow the current verse with animated transitions; optimized cover loading and a direct link to server administration.",
+        "Desktop client 1.3.0."
+      ]
+    }
+  },
+  {
+    "version": "1.2.0",
+    "date": "2026-11-22",
+    "title": {
+      "es": "Playlists en las salas y más",
+      "en": "Playlists in rooms and more"
+    },
+    "items": {
+      "es": [
+        "Escuchar juntos: si le das a reproducir a una playlist estando en una sala, te pregunta si quieres proponerla. Si dices que sí, la sala la vota: a todos les llega un aviso con sonido y una vista previa de la playlist con sus canciones. Si la mayoría vota que sí, se añade a la cola.",
+        "Escuchar juntos: nuevo botón para mezclar (shuffle) la cola de la sala, que va con el permiso de mover canciones, y nuevo permiso para proponer playlists.",
+        "El menú de las playlists de la biblioteca ahora tiene «Compartir» con desplegable (Copiar enlace / Mandar a…), igual que las canciones.",
+        "Los perfiles de artista tienen botón de Compartir para copiar su enlace o mandarlo por chat.",
+        "La biblioteca marca la playlist o el álbum que está sonando, con su nombre resaltado y un ecualizador, como en Spotify.",
+        "Radios: cada radio puede tener portada. El administrador la sube o pulsa «Buscar logo» para cogerlo de la web de la radio. Se ve en la lista de radios y en el reproductor.",
+        "App Android: muestra las portadas de radio que se suben al servidor.",
+        "App Android: campana con notificaciones del servidor y avisos normales del sistema.",
+        "App Android: widgets de música 1×4 y 2×4 con controles de reproducción; el widget grande muestra las playlists recientes con sus portadas, centradas y ajustadas al ancho disponible.",
+        "App Android: la Biblioteca usa el orden de actividad reciente del servidor y muestra solo tus playlists.",
+        "App Android: transiciones más suaves y arreglo del cierre del reproductor para evitar abrir por error el menú lateral.",
+        "Cliente de escritorio 1.2.0."
+      ],
+      "en": [
+        "Listen together: when you press play on a playlist while in a room, it asks whether you want to propose it. If you say yes, the room votes: everyone gets an alert with a sound and a preview of the playlist and its songs. If most vote yes, it is added to the queue.",
+        "Listen together: new button to shuffle the room queue, tied to the move-songs permission, and a new permission to propose playlists.",
+        "The library playlist menu now has “Share” with a submenu (Copy link / Send to…), like songs.",
+        "Artist profiles have a Share button to copy their link or send it by chat.",
+        "The library highlights the playlist or album that is playing, with its name highlighted and an equalizer, like Spotify.",
+        "Radios: each radio can have a cover. The admin uploads one or taps “Find logo” to take it from the radio’s website. It shows in the radio list and in the player.",
+        "Android app: shows radio covers uploaded to the server.",
+        "Android app: notification bell with server notifications and regular Android system alerts.",
+        "Android app: 1×4 and 2×4 music control widgets; the large widget shows recent playlists with covers centered and sized to fit its width.",
+        "Android app: the Library follows the server's recent activity order and shows only your playlists.",
+        "Android app: smoother transitions and a fix so closing the player does not accidentally open the side menu.",
+        "Desktop client 1.2.0."
+      ]
+    }
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-11-21",
+    "title": {
+      "es": "Chat, Reproducir en… y más",
+      "en": "Chat, Play on… and more"
+    },
+    "items": {
+      "es": [
+        "Chat entre amigos: ventanas pequeñas abajo a la derecha con foto y nombre, aviso con sonido (se puede quitar en Ajustes), mensajes cifrados que no se borran, y Compartir → Mandar a… para enviar canciones, álbumes, artistas y playlists. Chat en las salas de Escuchar juntos (se borra al cerrarse la sala).",
+        "Wrapped: ahora incluye las radios (minutos escuchados y tu radio del año).",
+        "Búsqueda: las canciones con metadatos bien puestos salen antes; los videoclips y archivos sin etiquetas bajan.",
+        "Reproducir en…: botón junto a la letra para ver tus dispositivos, pasar lo que suena de uno a otro (en el mismo segundo) y manejarlo a distancia.",
+        "Rendimiento: la web se descarga comprimida y solo cuando cambia, base de datos más rápida con nuevos índices.",
+        "App Android: la cabecera de Inicio muestra tu foto de perfil en lugar del logo, con el nombre de la pantalla donde estás (Inicio, Buscar, Biblioteca…) justo al lado.",
+        "App Android: al pulsar la foto se abre un menú lateral (también se cierra arrastrándolo con el dedo) con tu perfil, Wrapped, Recientes, Personalizar, Escuchar juntos, Ajustes, Administrador (solo cuentas admin) y Buscar actualizaciones.",
+        "App Android: en tu perfil hay un lápiz para editarlo desde el móvil.",
+        "App Android: Recientes muestra las últimas canciones que has escuchado.",
+        "App Android: Escuchar juntos con las mismas salas del servidor, sincronizadas (los chats llegarán en otra actualización).",
+        "App Android: nuevo botón «Crear» a la derecha de la barra inferior, para crear o importar una playlist, igual que en el servidor.",
+        "App Android: ahora se pueden buscar otros usuarios y seguirlos."
+      ],
+      "en": [
+        "Friends chat: small windows at the bottom right with photo and name, sound alert (can be turned off in Settings), encrypted messages that are never deleted, and Share → Send to… for songs, albums, artists and playlists. Chat inside Listen together rooms (deleted when the room closes).",
+        "Wrapped now includes radios (minutes listened and your radio of the year).",
+        "Search: songs with proper metadata come first; music videos and untagged files rank lower.",
+        "Play on…: button next to lyrics to see your devices, move what's playing between them (at the same second) and control it remotely.",
+        "Performance: the web app downloads compressed and only when it changes, faster database with new indexes.",
+        "Android app: the Home header shows your profile photo instead of the logo, with the name of the screen you're on (Home, Search, Library…) right next to it.",
+        "Android app: tapping the photo opens a side menu (it also closes by dragging it) with your profile, Wrapped, Recent, Customize, Listen together, Settings, Admin (admin accounts only) and Check for updates.",
+        "Android app: your profile has a pencil to edit it from the phone.",
+        "Android app: Recent shows the last songs you've listened to.",
+        "Android app: Listen together with the server's rooms, in sync (chats will come in a later update).",
+        "Android app: new “Create” button at the right of the bottom bar, to create or import a playlist, just like on the server.",
+        "Android app: you can now search for other users and follow them."
+      ]
+    }
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-11-19",
+    "title": {
+      "es": "Móvil rehecho y cliente Android",
+      "en": "Rebuilt mobile UI and Android client"
+    },
+    "items": {
+      "es": [
+        "Interfaz móvil nueva: barra de navegación inferior (Inicio, Buscar, Biblioteca, Radios y Más) al alcance del pulgar.",
+        "Mini-reproductor de una fila con línea de progreso; tócalo o desliza hacia arriba para abrir la pantalla de reproducción (portada grande, controles grandes, letra y cola). Desliza hacia abajo o usa «atrás» para cerrarla.",
+        "Cola y letra a pantalla completa, botones de al menos 44 px y márgenes seguros para muescas y barras del sistema.",
+        "Inicio con carruseles horizontales y buscador en su propia pestaña.",
+        "Compatibilidad con apps Subsonic: login con apiKey (OpenSubsonic), contraseña de la cuenta aceptada en el modo antiguo, mensaje de error que explica la «clave para apps», y nuevos endpoints (getMusicDirectory, search2, getAlbumList, star…). Ahora puedes elegir tu propia clave para apps.",
+        "Cliente nativo de Android (APK) con Android Auto: playlists, álbumes, artistas y radios en el coche, pantalla de bloqueo y búsqueda por voz.",
+        "Escuchar juntos: salas públicas (salen en una lista), privadas (solo con código) y solo amigos (os seguís los dos). El anfitrión puede ponerles nombre y cambiar quién entra.",
+        "Olvidé mi contraseña: recuperación con un código que llega al correo (el administrador configura el correo en Administración → Usuarios).",
+        "Escuchar juntos: la cola es de la sala (al crearla se vacía), mover y quitar canciones se ve para todos, reproducir una canción la añade a la cola, el anfitrión decide qué puede hacer cada invitado y la lista de personas muestra su foto."
+      ],
+      "en": [
+        "New mobile interface: bottom navigation bar (Home, Search, Library, Radios and More) within thumb reach.",
+        "One-row mini player with a progress line; tap it or swipe up to open the full now-playing screen (large cover, large controls, lyrics and queue). Swipe down or press back to close it.",
+        "Queue and lyrics full screen, touch targets of at least 44 px and safe-area margins for notches and system bars.",
+        "Home with horizontal carousels and search in its own tab.",
+        "Subsonic app compatibility: apiKey login (OpenSubsonic), account password accepted in legacy mode, an error message that explains the “app key”, and new endpoints (getMusicDirectory, search2, getAlbumList, star…). You can now choose your own app key.",
+        "Native Android client (APK) with Android Auto: playlists, albums, artists and radios in the car, lock screen controls and voice search.",
+        "Listen together: public rooms (shown in a list), private rooms (code only) and friends-only rooms (you follow each other). The host can name them and change who can join.",
+        "Forgot my password: recovery with a code sent by email (the administrator sets up the email in Administration → Users).",
+        "Listen together: the queue belongs to the room (it starts empty), moving and removing songs shows for everyone, playing a song adds it to the queue, the host decides what each guest can do, and the people list shows their photos."
+      ]
+    }
+  },
+  {
+    "version": "0.9.0",
+    "date": "2026-11-18",
+    "title": {
+      "es": "Escuchar juntos, sin conexión y mixes",
+      "en": "Listen together, offline and mixes"
+    },
+    "items": {
+      "es": [
+        "Escuchar juntos: crea una sala, comparte el código y todos oís lo mismo a la vez.",
+        "Amigos escuchando: en la Home ves qué escuchan ahora las personas a las que sigues (se puede ocultar en Ajustes → Privacidad).",
+        "Modo sin conexión: descarga álbumes y playlists y escúchalos sin internet (botón «Descargar», menú «Sin conexión»).",
+        "Crossfade: las canciones se funden entre sí (Ajustes → Crossfade).",
+        "Mixes automáticos (diario y por género) y «Redescubre» en la Home.",
+        "Arrastra canciones para reordenar «A continuación» en la cola.",
+        "Búsqueda mejorada: si buscas a una persona o a un artista, salen antes que las canciones.",
+        "Importar playlists es mucho más rápido (una de 3.000 canciones pasó de ~9 min a ~1 min), sin límite de canciones y con barra de progreso y tiempo estimado.",
+        "Las playlists enormes abren más rápido: respuestas comprimidas (~9 veces menos datos), portadas preparadas en segundo plano y copia local para verlas al instante.",
+        "Cliente de escritorio 0.9.0."
+      ],
+      "en": [
+        "Listen together: create a room, share the code and everyone hears the same thing at once.",
+        "Friends listening: on the Home you see what the people you follow are listening to now (can be hidden in Settings → Privacy).",
+        "Offline mode: download albums and playlists and listen without internet (“Download” button, “Offline” menu).",
+        "Crossfade: songs blend into each other (Settings → Crossfade).",
+        "Automatic mixes (daily and by genre) and “Rediscover” on the Home.",
+        "Drag songs to reorder “Up next” in the queue.",
+        "Better search: if you look for a person or an artist, they show before songs.",
+        "Importing playlists is much faster (a 3,000-song one went from ~9 min to ~1 min), with no song limit, and a progress bar with estimated time.",
+        "Huge playlists open faster: compressed responses (~9x less data), covers prepared in the background and a local copy to show them instantly.",
+        "Desktop client 0.9.0."
+      ]
+    }
+  },
+  {
+    "version": "0.8.0",
+    "date": "2026-11-18",
+    "title": {
+      "es": "Banner de perfil y nueva Home",
+      "en": "Profile banner and new Home"
+    },
+    "items": {
+      "es": [
+        "Banner personalizable en tu perfil (Perfil → Banner): JPG, PNG, WEBP o GIF.",
+        "Anuncios rotativos arriba de la Home, activables desde Administración → Anuncios (desactivados por defecto).",
+        "Nueva Home: tus playlists, recomendaciones según lo que escuchas, música para descubrir y lo añadido hace poco.",
+        "Barras de desplazamiento finas y discretas, también en el cliente de escritorio.",
+        "Las radios HTTP ya suenan cuando entras por HTTPS (el servidor las reenvía).",
+        "Cliente de escritorio 0.8.0."
+      ],
+      "en": [
+        "Custom banner on your profile (Profile → Banner): JPG, PNG, WEBP or GIF.",
+        "Rotating announcements at the top of the Home, enabled from Administration → Announcements (off by default).",
+        "New Home: your playlists, recommendations based on what you listen to, music to discover and recently added.",
+        "Thin, discreet scrollbars, also in the desktop client.",
+        "HTTP radios now play when you use HTTPS (the server relays them).",
+        "Desktop client 0.8.0."
+      ]
+    }
+  },
+  {
+    "version": "0.7.0",
+    "date": "2026-11-18",
+    "title": {
+      "es": "Pantallas grandes y más rapidez",
+      "en": "Big screens and speed"
+    },
+    "items": {
+      "es": [
+        "La interfaz se amplía sola en pantallas muy grandes (teles, 4K). En Ajustes → «Tamaño de la interfaz» puedes fijar un tamaño.",
+        "Las playlists con miles de canciones cargan mucho más rápido: la lista se dibuja por trozos y solo se pinta lo que se ve.",
+        "Las portadas se generan de forma ordenada (máximo 3 a la vez) y el navegador las guarda en caché, así que ya no se atascan.",
+        "Cliente de escritorio 0.7.0."
+      ],
+      "en": [
+        "The interface scales up automatically on very large screens (TVs, 4K). Settings → “Interface size” lets you set a fixed size.",
+        "Playlists with thousands of songs load much faster: the list is drawn in chunks and only what is visible is painted.",
+        "Covers are generated in an orderly way (max 3 at a time) and cached by the browser, so they no longer clog up.",
+        "Desktop client 0.7.0."
+      ]
+    }
+  },
+  {
+    "version": "0.6.0",
+    "date": "2026-11-17",
+    "title": {
+      "es": "Cliente de escritorio",
+      "en": "Desktop client"
+    },
+    "items": {
+      "es": [
+        "Cliente de escritorio para Windows (instalador con asistente) y Linux (AppImage): abre tu servidor en su propia ventana, con icono en la bandeja y teclas multimedia.",
+        "La primera vez el cliente pide la dirección de tu servidor, y si no está accesible te deja cambiarla.",
+        "Nueva página de descargas (menú de tu foto → Descargar), aparte de la web: sin barras ni música, con botones para Windows y Linux. Android aparece como «Próximamente».",
+        "Los instaladores se dejan en la carpeta «downloads» de los datos del servidor.",
+        "Dentro del cliente de escritorio ya no aparece la opción Descargar."
+      ],
+      "en": [
+        "Desktop client for Windows (wizard installer) and Linux (AppImage): opens your server in its own window, with a tray icon and media keys.",
+        "The first time, the client asks for your server's address, and lets you change it if it can't be reached.",
+        "New download page (your photo menu → Download), separate from the web app: no bars and no music, with buttons for Windows and Linux. Android shows as “Coming soon”.",
+        "Installers go in the “downloads” folder of the server's data.",
+        "The Download option no longer shows inside the desktop client."
+      ]
+    }
+  },
+  {
+    "version": "0.5",
+    "date": "2026-11-15",
+    "title": {
+      "es": "Cola, modos de reproducción, duplicadas y personas",
+      "en": "Queue, play modes, duplicates and people"
+    },
+    "items": {
+      "es": [
+        "Subida de fotos arreglada: vale cualquier formato (JPG, PNG, WEBP, GIF animado, BMP...) hasta 20 MB.",
+        "La administración detecta canciones duplicadas y te deja elegir con cuál quedarte (eliminar o solo ocultar las demás).",
+        "Cada archivo nuevo pasa solo por el escáner de metadatos.",
+        "Buscador tolerante: «Thats life», «sinatara» o «dondeestas» ya encuentran lo que buscas.",
+        "Busca a otras personas, mira sus playlists públicas y síguelas.",
+        "Barra derecha con la portada, «Sobre el artista» y la cola de reproducción.",
+        "Un solo botón de modo: en orden, bucle, bucle de una canción y aleatorio (sin repetir hasta vaciar la mezcla).",
+        "«Añadir a la cola»: suena justo después de la actual y luego sigue tu playlist.",
+        "Canciones con portada: el play aparece sobre ella al pasar el ratón, un clic solo selecciona y doble clic reproduce. El título lleva a la página de la canción y el artista a su perfil.",
+        "Menú de clic derecho con «Playlists» que se abre al pasar por encima, Ir a la canción y Ir al artista.",
+        "Clic derecho en la cola, la barra de abajo y la barra izquierda; en la cola puedes arrastrar o subir/bajar canciones.",
+        "En tu biblioteca: fijar playlists arriba, compartir y borrar desde el menú de clic derecho (el botón de borrar ya no está dentro de la playlist).",
+        "Botón de compartir: copia el enlace a la canción, playlist o álbum.",
+        "Papelera por usuario: manda a la papelera canciones, álbumes o artistas con clic derecho; no suenan en tus colas y se pueden restaurar en Papelera (menú de tu perfil).",
+        "Página de artista nueva: foto, estadísticas, canciones populares, biografía y discografía. El admin puede editarla, subir foto o buscarlas en internet.",
+        "Letras: el icono del micrófono junto al volumen abre la letra; si está sincronizada se marca la línea que suena y pulsando una línea saltas a ese punto. También aparece en la página de cada canción.",
+        "Las letras se leen de archivos .lrc junto a la canción, de las etiquetas del archivo o de LRCLIB (opcional, se activa en Administración).",
+        "El menú del navegador ya no sale dentro de la página: solo los menús de Zinctify.",
+        "Campana de notificaciones: música nueva de los artistas que guardas con el corazón, gente que empieza a seguirte, playlists nuevas de quien sigues e invitaciones.",
+        "Amigos: si os seguís mutuamente os considera amigos (etiqueta «Amigos» y aviso al instante).",
+        "Playlists colaborativas: invita a otros usuarios; los que aceptan pueden añadir y quitar canciones. Se gestionan con el botón «Colaboradores».",
+        "Importar playlists: pega un enlace de Spotify, YouTube, SoundCloud o Deezer (o una lista de texto/CSV) y se recrea con la música de tu servidor. Queda vinculada: lo nuevo del origen, o que llegue después a tu servidor, se añade solo.",
+        "Letras: búsqueda más amplia en LRCLIB, NetEase como segunda fuente, búsqueda de toda la biblioteca y mejora a sincronizadas (Administración), ajuste de desfase, «Buscar de nuevo» y pegar una letra propia (admin).",
+        "La letra ocupa solo la columna central y deja la biblioteca y la cola a los lados, con el fondo de la web.",
+        "Biblioteca contraíble: botón junto a «Tu biblioteca» para dejarla solo con iconos y portadas.",
+        "Iniciar sesión con Spotify para importar playlists de más de 100 canciones (ajustes en Administración).",
+        "Personalización (icono de paleta junto a la campana): colores y temas, fondo liso, degradado o imagen/GIF con brillo y desenfoque, onda de sonido, barra de tiempo arriba, barra que se ilumina, ancho de la biblioteca, widgets arrastrables (reloj y ahora suena) y código para compartir tu estilo.",
+        "El nombre del dueño de una playlist y tu nombre en el menú de tu foto llevan al perfil.",
+        "En los perfiles puedes ver quién sigue a alguien y a quién sigue (pulsando los números), con opciones de privacidad en Ajustes.",
+        "Vista de biblioteca en lista (junto a cuadrícula y compacta).",
+        "Animaciones: la letra sube desde abajo y la portada de las canciones se acerca y gira al pasar el ratón. En Ajustes puedes regular la suavidad (0 = sin animaciones).",
+        "Arreglado: las imágenes y GIF de fondo ya cargan, y ya no aparece la palabra «null» bajo la foto de las playlists."
+      ],
+      "en": [
+        "Photo upload fixed: any format (JPG, PNG, WEBP, animated GIF, BMP...) up to 20 MB.",
+        "Administration finds duplicate songs and lets you choose which one to keep (remove or just hide the others).",
+        "Every new file goes through the metadata scanner on its own.",
+        "Forgiving search: \"Thats life\", \"sinatara\" or \"dondeestas\" now find what you mean.",
+        "Search for other people, see their public playlists and follow them.",
+        "Right sidebar with the cover, \"About the artist\" and the play queue.",
+        "One mode button: in order, loop, loop one song and shuffle (no repeats until the mix runs out).",
+        "\"Add to queue\": plays right after the current song, then your playlist carries on.",
+        "Songs with cover art: play shows on the cover on hover, a click only selects and double click plays. The title opens the song page and the artist opens their profile.",
+        "Right-click menu with a \"Playlists\" submenu that opens on hover, Go to song and Go to artist.",
+        "Right-click on the queue, the bottom bar and the left bar; in the queue you can drag or move songs up/down.",
+        "In your library: pin playlists to the top, share and delete from the right-click menu (the delete button is no longer inside the playlist).",
+        "Share button: copies the link to the song, playlist or album.",
+        "Per-user trash: send songs, albums or artists to the trash with a right click; they are skipped in your queues and can be restored from Trash (profile menu).",
+        "New artist page: photo, stats, popular songs, biography and discography. The admin can edit it, upload a photo or look both up online.",
+        "Lyrics: the microphone icon next to the volume opens them; if synced, the current line is highlighted and clicking a line jumps there. Also shown on each song's page.",
+        "Lyrics are read from .lrc files next to the song, from file tags or from LRCLIB (optional, enabled in Administration).",
+        "The browser's own context menu no longer appears inside the page: only Zinctify's menus.",
+        "Notification bell: new music from artists you've hearted, people who start following you, new playlists from people you follow, and invitations.",
+        "Friends: if you follow each other you're considered friends (\"Friends\" tag and instant notice).",
+        "Collaborative playlists: invite other users; those who accept can add and remove songs. Manage them with the \"Collaborators\" button.",
+        "Import playlists: paste a Spotify, YouTube, SoundCloud or Deezer link (or a text/CSV list) and it is recreated with your server's music. It stays linked: new tracks at the source, or arriving later on your server, are added automatically.",
+        "Lyrics: broader LRCLIB search, NetEase as a second source, whole-library search and upgrade to synced (Administration), offset adjustment, “Search again” and paste your own lyrics (admin).",
+        "Lyrics now fill only the centre column, leaving the library and queue at the sides, with the site background.",
+        "Collapsible library: a button next to “Your library” shrinks it to icons and covers.",
+        "Log in with Spotify to import playlists of more than 100 songs (settings in Administration).",
+        "Customization (palette icon next to the bell): colors and themes, solid, gradient or image/GIF background with brightness and blur, sound-wave time bar, time bar on top, lighting player bar, library width, draggable widgets (clock and now playing) and a code to share your style.",
+        "A playlist owner's name and your name in the profile menu now link to the profile.",
+        "Profiles now show who follows someone and who they follow (click the numbers), with privacy options in Settings.",
+        "Library list view (next to grid and compact).",
+        "Animations: lyrics slide up from the bottom and song covers zoom and turn on hover. Settings has a smoothness slider (0 = no animations).",
+        "Fixed: background images and GIFs now load, and the word “null” no longer appears under playlist covers."
+      ]
+    }
+  },
+  {
+    "version": "0.4",
+    "date": "2026-11-15",
+    "title": {
+      "es": "Playlists, perfil y una cara nueva",
+      "en": "Playlists, profiles and a new look"
+    },
+    "items": {
+      "es": [
+        "Playlists privadas y públicas. Se crean con «Crear» o con clic derecho sobre una canción o un álbum.",
+        "Tu biblioteca en la barra de la izquierda: tus playlists y lo que guardes con el corazón (playlists de otros, álbumes y artistas), ordenado por lo último que escuchaste.",
+        "Barra superior con buscador y tu foto; desde ahí, Perfil, Ajustes y este change log.",
+        "Perfil con nombre, bio, foto, contraseña y correo. Cada cuenta tiene ahora un correo.",
+        "Ajustes: idioma, calidad del audio, normalización del volumen y vista compacta de la biblioteca.",
+        "Letra nueva en toda la web, logo nuevo y menú con iconos."
+      ],
+      "en": [
+        "Private and public playlists. Create them with “Create” or by right-clicking a song or an album.",
+        "Your library on the left: your playlists and everything you save with the heart (other people's playlists, albums and artists), ordered by what you played last.",
+        "Top bar with search and your photo; from there, Profile, Settings and this change log.",
+        "Profile with name, bio, photo, password and email. Every account now has an email.",
+        "Settings: language, audio quality, volume normalization and a compact library view.",
+        "New typeface across the site, a new logo and an icon menu."
+      ]
+    }
+  },
+  {
+    "version": "0.3",
+    "title": {
+      "es": "Panel de administración y escáner de metadatos",
+      "en": "Admin panel and metadata scanner"
+    },
+    "items": {
+      "es": [
+        "Panel de administración con resumen, radios, metadatos y usuarios.",
+        "Escáner de metadatos: compara con MusicBrainz, Deezer, Apple Music y Spotify y propone correcciones que tú aceptas o descartas.",
+        "Tus archivos no se tocan: las correcciones se guardan aparte y se pueden deshacer."
+      ],
+      "en": [
+        "Admin panel with overview, radios, metadata and users.",
+        "Metadata scanner: compares with MusicBrainz, Deezer, Apple Music and Spotify and suggests fixes you accept or dismiss.",
+        "Your files are never touched: fixes are stored separately and can be undone."
+      ]
+    }
+  },
+  {
+    "version": "0.2",
+    "title": {
+      "es": "Artistas, idioma y nombre nuevo",
+      "en": "Artists, language and a new name"
+    },
+    "items": {
+      "es": [
+        "Las canciones con varios artistas (*NSYNC, Nelly) crean un perfil por artista.",
+        "Reparación de caracteres rotos en los tags.",
+        "La web usa el idioma del sistema (español o inglés).",
+        "minisonic pasa a llamarse Zinctify."
+      ],
+      "en": [
+        "Songs with several artists (*NSYNC, Nelly) now create one profile per artist.",
+        "Broken characters in tags are repaired.",
+        "The site uses your system language (Spanish or English).",
+        "minisonic is now called Zinctify."
+      ]
+    }
+  },
+  {
+    "version": "0.1",
+    "title": {
+      "es": "El principio",
+      "en": "The beginning"
+    },
+    "items": {
+      "es": [
+        "Servidor compatible con Subsonic, junto a Navidrome.",
+        "Interfaz web con cuentas de usuario, radios y Wrapped."
+      ],
+      "en": [
+        "Subsonic-compatible server, running next to Navidrome.",
+        "Web interface with user accounts, radios and Wrapped."
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+# datos y secretos: NUNCA se suben
+zinctify-data/
+minisonic-data/
+*.db
+*.db-wal
+*.db-shm
+*.jks
+*.keystore
+keystore.properties
+local.properties
+.env
+
+# generado al compilar
+node_modules/
+dist/
+release/
+build/outputs/
+.gradle/
+*.apk
+*.AppImage
+*.exe
+*.zip
+__pycache__/
+*.pyc
+.idea/
+.vscode/
