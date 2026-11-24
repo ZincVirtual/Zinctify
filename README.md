@@ -1,6 +1,8 @@
 # Zinctify
 
-Self-hosted music server with a web interface, user accounts and a Subsonic/OpenSubsonic-compatible API (works with Feishin, Symfonium, Substreamer…).
+Zinctify is a Self-hosted alternative to Spotify with user accounts and a Subsonic/OpenSubsonic-compatible API (works with Feishin, Symfonium, Substreamer…).
+
+**IT IS COMPLETLY VIBE CODED**
 
 - **Server + web**: `zinctify.py` + `web/` — Python 3.9+ standard library only, plus `ffmpeg`.
 - **Desktop client** (Windows / Linux): `client/zinctify-desktop/` (Electron).
