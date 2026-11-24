@@ -1,9 +1,0 @@
-version: 1.3.0
-files:
-  - url: Zinctify-1.3.0.AppImage
-    sha512: ZTEgFXPzy7ftafn7Cp+hMfZSKwbKxXO+u+XIDD5CdO/qScU9FClsuS9UWwWo9Y7WYyFRSWuTackxkxoGFBpV9g==
-    size: 127174819
-    blockMapSize: 137399
-path: Zinctify-1.3.0.AppImage
-sha512: ZTEgFXPzy7ftafn7Cp+hMfZSKwbKxXO+u+XIDD5CdO/qScU9FClsuS9UWwWo9Y7WYyFRSWuTackxkxoGFBpV9g==
-releaseDate: '2026-11-23T22:32:37.248Z'
